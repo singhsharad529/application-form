@@ -1,31 +1,35 @@
 import React from 'react'
 import '../styles/application.css'
-
-import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+ 
 
 export const Application = () => {
     return (
         <div >
             <h1 className="applicationFormHeading">Application Form</h1>
             <div className="leftDiv">
-                <div className="formDiv">
+            
                     <div className="container">
                         <form action="/  ">
                             <div className="rowForm">
-                            <label for="fname">Full Name</label>
-                            <input type="text"   name="fullname" placeholder="Your name.." />
+                                <div >
+                                <label for="fname" >Full Name</label>
+                                <input type="text"   name="fullname" placeholder="Your name.." required />
+                                </div>
 
-                            <label for="mobile">Mobile Number</label>
-                            <input type="text"  name="mobile" placeholder="Mobile Number.." />
+                                <div  >
+                                <label for="mobile">Mobile Number</label>
+                            <input type="number"  name="mobile" placeholder="Mobile Number.." required/>
 
+                                </div>
+   
                             </div>
                          
 
                             <label for="email">Email</label>
-                            <input type="email"  name="email" placeholder="Email.." />
+                            <input type="email"  name="email" placeholder="Email.." required/>
 
                             <label for="file">Resume</label>
-                            <input type="file"  name="resume"   />
+                            <input type="file"  name="resume"  required />
 
 
                             <label for="subject">Write Your Messgage to Recruiter</label>
@@ -34,8 +38,7 @@ export const Application = () => {
                             <input type="submit" value="Submit" />
                         </form>
                     </div>
-                </div>
-
+                
             </div>
 
         </div>

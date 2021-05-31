@@ -7,6 +7,7 @@ import './App.css';
 import {Nav} from "./components/Nav";
 import {Footer} from "./components/Footer";
 import {Application} from "./components/Application";
+import {Jobs} from "./components/jobs";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       <div>
       <Nav/>
-      <Application/>
+      {/* <Application/> */}
+      <Jobs/>
       <Footer/>
       </div>
   

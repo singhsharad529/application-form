@@ -1,0 +1,106 @@
+.searchParent{
+    margin-top: 70px;
+}
+
+
+
+ .subHeading{
+     display: inline-block;
+     padding-left: 30px;
+ }
+
+
+.tableParent{
+    margin-top: 50px;
+}
+
+.post{
+    padding: 5px;
+}
+
+.apply{
+    padding-top: 20px;
+    padding-right: 10px;
+    float: right;
+     
+}
+
+.applyButton{
+   background-color: #ec7c2d;
+   color: white;
+   padding: 8px 15px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+form{
+    margin:auto;
+}
+
+ 
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-right: none;
+    float: left;
+    width: 90%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #ec7c2d;
+    color: white;
+    font-size: 17px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.tableStart{
+    width: 100%;
+}
+
+.tableRow:hover{
+    border-top: #ec7c2d;
+    border-bottom: #ec7c2d;
+    background-color: rgba(130,36,227,0.05);;
+
+}
+
+
+
+@media screen and (max-width: 930px){
+
+    form.example input[type=text] {
+        
+        width: 80%;
+       
+      }
+      
+      form.example button {
+        
+        width: 20%;
+        
+      }
+      
+      
+
+
+  }
+ 
+ 
+
+

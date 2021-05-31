@@ -5,7 +5,10 @@ import '../styles/application.css'
 export const Application = () => {
     return (
         <div >
-            <h1 className="applicationFormHeading">Application Form</h1>
+            <div  className="applicationFormHeading">
+            <h1>Application Form</h1>
+            </div>
+           
             <div className="leftDiv">
             
                     <div className="container">

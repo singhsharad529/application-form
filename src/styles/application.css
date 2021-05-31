@@ -27,10 +27,6 @@
  }
 
  
-  
- 
-  
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
@@ -96,7 +92,58 @@ input[type=text], select, textarea {
     padding: 18px;
   }
  
+
+
+  @media screen and (max-width: 930px){
+
+
+    .leftDiv{
+    
+      width: 60%;
+     
+      
+  
+   }
+
+
+
+  }
+ 
  
   
+
+  
+  @media screen and (max-width: 750px){
+
+
+    .leftDiv{
+    
+      width: 70%;
+     
+      
+  
+   }
+
+
+
+  }
+
+
+  @media screen and (max-width: 500px){
+
+
+    .leftDiv{
+    
+      width: 85%;
+     
+      
+  
+   }
+
+
+
+  }
+ 
+ 
  
 

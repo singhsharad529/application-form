@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       <div>
       <Nav/>
-      {/* <Application/> */}
-      <Jobs/>
+      <Application/>
+      {/* <Jobs/> */}
       <Footer/>
       </div>
   

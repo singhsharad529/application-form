@@ -31,6 +31,15 @@ export const Application = () => {
                             <label for="email">Email</label>
                             <input type="email"  name="email" placeholder="Email.." required/>
 
+                            <label for="job">Job Title</label>
+                            <select name="jobs" >
+                                <option value="" selected>Select Job Title</option>
+                                <option value="webdeveloper">Web Developer</option>
+                                <option value="contentwriter">Content Writer</option>
+                                <option value="androiddeveloper">Android Developer</option>
+                            </select>
+                             
+
                             <label for="file">Resume</label>
                             <input type="file"  name="resume"  required />
 
